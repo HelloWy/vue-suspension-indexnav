@@ -3,7 +3,7 @@
     <input type="text" v-model="associatingText" class="txt-search" placeholder="The keyword"/>
     <div id="slider" style="
     font-size: 0.24rem;
-    overflow: scroll;">
+    overflow: scroll;-webkit-overflow-scrolling: touch;">
       <div class="slider-content" ref="sliderContent">
         <ul class="slider-parent">
           <li>
@@ -103,9 +103,8 @@
           if (!Array.isArray(result[key])) {
             result[key] = []
           }
-          if(!obj.mainTitle){
-            Object.assign(obj, {mainTitle: obj[me.mainTitleKey], subTitle: obj[me.subTitleKey]})
-          }
+          obj.mainTitle = obj.mainTitle || obj[me.mainTitleKey]
+          obj.subTitle = obj.subTitle || obj[me.subTitleKey]
           result[key].push(obj)
         })
         // 对result的key进行排序 结果：['a','b','c'.....]

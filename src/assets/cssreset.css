@@ -9,9 +9,13 @@ http://yuilibrary.com/license/
 html{
 	color:#000;
 	background:#FFF;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,footer,article,aside,header,section,nav,figure,figcaption,hgroup{
 	margin:0;
 	padding:0;
+   -webkit-text-size-adjust: 100%;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }table{
 	border-collapse:collapse;
 	border-spacing:0;
