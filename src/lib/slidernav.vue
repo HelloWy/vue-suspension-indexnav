@@ -34,7 +34,7 @@
 
 <script>
   export default{
-    name: 'vue-slider-nav',
+    name: 'vue-suspension-indexnav',
     props: {
       // 显示选择的列表，暂有  nationality  和 phoneCode   两种
       displayType: {

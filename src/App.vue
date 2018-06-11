@@ -5,12 +5,12 @@
     </div>
     <div v-show="!openSlidernav" style="margin-top: 2rem;text-align:center;width: 100%; font-size: 0.5rem;" @click="taggle"><button style="font-size: 0.6rem;">Select Country</button></br></br>{{countryName}}</div>
 
-    <vue-slider-nav v-show="openSlidernav"
+    <vue-suspension-indexnav v-show="openSlidernav"
       mainTitleKey="country_name"
       subTitleKey="country_areacode"
       :dataList="dataList.listCountry"
       contactKey="countryCode"
-      @callBackFunction="callBack"></vue-slider-nav>
+      @callBackFunction="callBack"></vue-suspension-indexnav>
   </div>
 </template>
 
