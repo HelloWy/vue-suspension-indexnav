@@ -1,4 +1,4 @@
-# vue-slider-nav
+# vue-suspension-indexnav
 
 > Works for Vue2 now. This is similar to address books, country lists, and so on, and is based on vue.js.I refer to [DevGrow/SliderNav](https://github.com/DevGrow/SliderNav) for style and logic.Thank you very much.  
 
